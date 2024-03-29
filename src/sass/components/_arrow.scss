@@ -1,0 +1,37 @@
+/*===============
+  Arrow Component Styles
+===============*/
+.arrow-divider {
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
+}
+
+.arrow-divider__arrow {
+    color: var(--default-font-color);
+    animation-direction: alternate;
+    animation-duration: 1450ms;
+    animation-iteration-count: infinite;
+    animation-name: arrow-bounce;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes arrow-bounce {
+    from {
+        transform: translateX(15px)
+    }
+
+    to {
+        transform: translateX(0)
+    }
+}
+
+@keyframes arrow-bounce {
+    from {
+        transform: translateX(15px)
+    }
+
+    to {
+        transform: translateX(0)
+    }
+}

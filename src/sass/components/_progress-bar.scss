@@ -1,0 +1,25 @@
+progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 0.2rem;
+    border: none;
+    background: transparent;
+  }
+
+  progress::-webkit-progress-bar {
+    background: transparent;
+  }
+
+  progress::-webkit-progress-value {
+    background-color: var(--default-progress-bar);
+    background-attachment: fixed;
+  }
+
+  progress::-moz-progress-bar {
+    background-color: var(--default-progress-bar);
+    background-attachment: fixed;
+  }

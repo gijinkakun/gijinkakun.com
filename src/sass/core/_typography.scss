@@ -1,0 +1,100 @@
+/*===============
+  Typography Styles
+===============*/
+h1,
+.h1 {
+    margin-bottom: 2.5rem;
+    color: var(--default-font-color);
+    font-family: 'Fredericka the Great', serif;
+    font-size: clamp(3.125rem, 5.294vw + 2.132rem, 4.25rem);
+    line-height: clamp(3.438rem, 5.824vw + 2.346rem, 4.675rem);
+    font-weight: 800;
+
+    .tagline {
+        font-family: "Courier New", "Courier", monospace;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+}
+
+h2,
+.h2 {
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--default-font-color);
+    font-family: 'Fredericka the Great', serif;
+    font-size: clamp(2.5rem, 2.941vw + 1.949rem, 3.125rem);
+    line-height: clamp(3rem, 3.529vw + 2.338rem, 3.75rem);
+    font-weight: 800;
+}
+
+h3,
+.h3 { 
+    margin-top: 1.2rem;
+    margin-bottom: 0rem;
+    color: var(--default-font-color);
+    font-family: 'Fredericka the Great', serif;
+    font-size: 1.6rem;
+    line-height: 1;
+
+}
+
+h4,
+.h4 {
+    margin-top: 1.2rem;
+    margin-bottom: 0rem;
+    color: var(--default-font-color);
+    font-family: 'Fredericka the Great', serif;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+h5,
+.h5 {
+    margin-top: 1.2rem;
+    margin-bottom: 0rem;
+    color: var(--default-font-color);
+    font-family: 'Fredericka the Great', serif;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
+    margin-top: 0rem;
+    margin-bottom: 1.2rem;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+hr,
+.hr {
+    border: 1px solid;
+    margin: -1px 0;
+}
+
+sub,
+sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}

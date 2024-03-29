@@ -1,0 +1,32 @@
+.social-media {
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__link {
+        color: var(--default-social-media-background-color);
+        transition: all 500ms ease-in-out;
+
+        &:hover {
+            color: var(--default-social-media-background-hover-color);
+        }
+
+        &:focus {
+            outline: solid 3px var(--default-focus-color);
+            outline-offset: 5px;
+            visibility: visible;
+            opacity: 1;
+            outline-style: inset;
+        }
+    }
+
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+}

@@ -1,0 +1,56 @@
+{
+	"short_name": "Gijinkakun",
+	"name": "Chris Satterthwaite Developer / Animator",
+	"icons": [
+		{
+			"src": "./assets/images/app/android-chrome-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "maskable"
+		},
+		{
+			"src": "./assets/images/app/android-chrome-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "maskable"
+		},
+		{
+			"src": "./assets/images/app/android-chrome-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "maskable"
+		},
+		{
+			"src": "./assets/images/app/android-chrome-144x144.png",
+			"type": "image/png",
+			"sizes": "144x144",
+			"purpose": "maskable"
+		},
+		{
+			"src": "./assets/images/app/android-chrome-144x144.png",
+			"type": "image/png",
+			"sizes": "144x144",
+			"purpose": "any"
+		}
+	],
+	"id": "/",
+	"start_url": "/",
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#ffffff",
+	"orientation": "any",
+	"description": "Personal website of Chris Satterthwaite, Developer / Animator based in Kelowna British Columbia.",
+	"screenshots": [
+		{
+			"src": "./assets/images/app/screenshot1.png",
+			"type": "image/png",
+			"sizes": "540x720"
+		},
+		{
+			"src": "./assets/images/app/screenshot2.png",
+			"type": "image/jpg",
+			"sizes": "540x720"
+		}
+	]
+}

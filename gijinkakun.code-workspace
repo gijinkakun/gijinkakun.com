@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveSassCompile.settings.formats":[
+			// You can add more
+			{
+				"format": "compressed",
+				"extensionName": ".css",
+				"savePath": "/assets/css"
+			},
+		]
+	}
+}

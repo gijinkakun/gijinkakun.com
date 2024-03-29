@@ -1,0 +1,3 @@
+Sitemap:https://www.gijinkakun.com/sitemap.xml
+User-agent: *
+Disallow:

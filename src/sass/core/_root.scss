@@ -1,0 +1,21 @@
+:root {
+    --default-primary-color: #1d0000;
+    --default-secondary-color: #e8443a;
+    --default-max-width: 480px;
+    --default-background-color: #ffffff;
+    --default-background-image: url(../images/site/bg.webp);
+    --default-font-color: var(--default-primary-color);
+    --default-progress-bar: var(--default-secondary-color);
+    --default-about-background-image: url(../images/site/paint-top.webp), url(../images/site/halftone.png);
+    --default-projects-background-image: url(../images/site/paint-bottom.webp), url(../images/site/halftone.png);
+    --default-projects-font-color: var(--default-primary-color);
+    --default-projects-font-hover-color: var(--default-secondary-color);
+    --default-social-media-background-color: var(--default-primary-color);
+    --default-social-media-background-hover-color: var(--default-secondary-color);
+    --default-navigation-font-color: var(--default-primary-color);
+    --default-navigation-font-hover-color: var(--default-secondary-color);
+    --default-back-to-top-font-color: #ffffff;
+    --default-back-to-top-background-color: var(--default-primary-color);
+    --default-focus-color: var(--default-secondary-color);
+    --default-card-background-image: url(../images/site/card.png);
+}

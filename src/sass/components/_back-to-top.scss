@@ -1,0 +1,28 @@
+#back-to-top-btn {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    display: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--default-back-to-top-background-color);
+    color: var(--default-back-to-top-font-color);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: color-mix(in srgb,  var(--default-back-to-top-background-color) 90%, white);
+    }
+
+    &:focus {
+        outline: solid 3px var(--default-focus-color);
+        outline-offset: 5px;
+        visibility: visible;
+        opacity: 1;
+        outline-style: inset;
+    }
+
+  
+}  .show {
+        display: block !important;
+    }

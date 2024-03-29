@@ -1,0 +1,57 @@
+/*===============
+  Accessibility Styles
+===============*/
+// Skip Link Styles
+.skip-links {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+
+    // UL styles
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    // Link styles
+    &__link {
+        position: fixed;
+        top: 50px;
+        left: 20px;
+        z-index: 999999;
+        opacity: 0;
+        min-width: 200px;
+        padding: 1rem 1.5rem;
+        background-color: #ffffff;
+        color: #222222;
+        border: 3px solid rgba(19, 110, 248, .8);
+        border-radius: 50px;
+        outline: #639af9 solid 0px;
+        direction: ltr;
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: none;
+        transition: top 0.22s ease 0s;
+        pointer-events: none;
+
+        // Focus styles so when tabbing the links show
+        &:focus {
+            top: 20px;
+            opacity: 1;
+            pointer-events: auto;
+        }
+    }
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}

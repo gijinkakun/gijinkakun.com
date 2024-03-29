@@ -1,0 +1,24 @@
+/*===============
+  Global Styles
+===============*/
+html {
+    overflow-x: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+body {
+    padding-top: 300px;
+    background-color: var(--default-background-color);
+    background-image: var(--default-background-image);
+    background-size: 240px 240px;
+    color: var(--default-font-color);
+    font-family: "Courier New", "Courier", monospace;
+    font-size: 1rem;
+    letter-spacing: .005em;
+    font-weight: 400;
+    line-height: 1.6rem;
+}

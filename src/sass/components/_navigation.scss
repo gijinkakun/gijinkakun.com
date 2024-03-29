@@ -1,0 +1,27 @@
+.navigation {
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__link {
+        color: var(--default-navigation-font-color);
+        font-size: 0.8rem;
+
+        &:hover {
+            color: var(--default-navigation-font-hover-color);
+        }
+
+        &:focus {
+            outline: solid 3px var(--default-focus-color);
+            outline-offset: 5px;
+            visibility: visible;
+            opacity: 1;
+            outline-style: inset;
+        }
+    }
+}
